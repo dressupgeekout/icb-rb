@@ -90,7 +90,7 @@ module Icb::MessageMixins
   module ProtocolPacket
     def level; return @fields[0]; end
     def host_id; return @fields[1]; end
-    def server_oid; return @fields[2]; end
+    def server_id; return @fields[2]; end
   end
 
   module BeepPacket
