@@ -29,7 +29,7 @@ require 'socket'
 require 'stringio'
 
 module Icb
-  API_VERSION = "0.0.0a".freeze
+  API_VERSION = "0.0.1".freeze
 end
 
 
