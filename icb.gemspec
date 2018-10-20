@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'Ruby interface to the ICB chat protocol'
   spec.description = 'Ruby interface to the ICB chat protocol'
   spec.authors = ["Charlotte Koch",]
-  spec.email = 'cfkoch@edgebsd.org'
+  spec.email = 'dressupgeekout@gmail.com'
   spec.files = ['lib/icb.rb',]
   spec.homepage = 'https://github.com/dressupgeekout/icb-rb'
   spec.license = 'BSD-2-Clause'
