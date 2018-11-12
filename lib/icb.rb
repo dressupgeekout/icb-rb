@@ -208,6 +208,13 @@ class Icb::ClientConnection
     connect
   end
 
+  # Waits for any new messages and returns a `Icb::Message` object.
+  # Convenience wrapper around blocking for a new message and "refining" the
+  # result into an object with nice methods.
+  def next_message
+    return parse_data(receive_response(client.socket)[:data]).refine
+  end
+
   def to_s
     return sprintf("%s:%d", @host, @port)
   end

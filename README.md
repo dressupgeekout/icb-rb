@@ -29,7 +29,7 @@ client = Icb::ClientConnection.new host: "127.0.0.1", port: Icb::ClientConnectio
 client.login(login_id: ENV["USER"], nickname: "moana", default_group: "motonui", command: "login")
 
 loop do
-  msg = parse_data(receive_response(client.socket)[:data]).refine
+t msg = parse_data(receive_response(client.socket)[:data]).refine
   if msg.type == OPEN_MESSAGE and msg.body =~ /^moana:/
     client.say("Hey, #{msg.from}!")
   end
