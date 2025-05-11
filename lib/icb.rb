@@ -2,7 +2,7 @@
 # Charlotte's ICB Client Library for Ruby
 # =======================================
 #
-# Copyright 2016, 2017, 2018 Charlotte Koch <cfkoch@edgebsd.org>
+# Copyright 2016, 2017, 2018 Charlotte Koch <dressupgeekout@gmail.com>
 # 
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
